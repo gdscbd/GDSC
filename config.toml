@@ -2,12 +2,12 @@ publishdir = "public"
 static = "/static"
 builddrafts = false
 # Replace this with your website URL
-baseurl = "https://biaslab.github.io"
+baseurl = ""
 canonifyurls = true
-theme = "academic-group"
-title = "BIASlab"
+theme = "hugo-academic-group"
+title = "Health Data Science Center - CHIRAL Bangladesh"
 math = true
-copyright = "&copy; BIASlab, 2021 "
+copyright = "&copy; Center for Health Innovation, Research, Action and Learning - Bangladesh"
 enableRobotsTXT = true
 
 [taxonomies]
@@ -20,45 +20,43 @@ tag = "tags"
       unsafe = true
 
 [params]
-  description = "Website of research group"
-  author = "BIASlab"
-  email = "bert.de.vries@tue.nl"
-  youtube = "https://www.youtube.com/channel/UCd1ftkOXIQ8MstIHosEDdaw/"
-  address = '<a href="https://www.google.nl/maps/place/Flux/@51.4477301,5.4899384,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x47c6d8e732a9a3c3:0x5b7b2b4ec811981c!2sFlux!3b1!8m2!3d51.4477268!4d5.4921271!3m4!1s0x47c6d8e732a9a3c3:0x5b7b2b4ec811981c!8m2!3d51.4477268!4d5.4921271">Flux building 7.060, Groene Loper 19, 5612 AP Eindhoven, the Netherlands</a>'
-  slogan = "BIAS<b>LAB</b>"
+  description = "We collaborate with a broad variety of partners, including patients, the general public, physicians, researchers, and health organizations, to assist them in conducting research into the causes, prevention, and treatment of all health problems using health data (such as heart attacks, strokes, and vascular dementia). We do this to make sure that new ways to treat and care for diseases and health problems reach patients as quickly as possible."
+  author = "CHIRAL Bangladesh"
+  email = "hdsc.chiralbd@gmail.com"
+  #youtube = "https://www.youtube.com/channel/UCAcwD0rF2Rm-sp1c2LUWh4w"
+  address = '<a>Azimpur, 7/7, Dhaka, Bangladesh</a>'
+  slogan = "CHIRAL<b>BD</b>"
   slogan_icon = "icon-spsbrats_logo"
-  slogan_text = "Bayesian Intelligent Autonomous Systems"
+  slogan_text = "Better Insights, Better Lives"
   custom_css = ["biaslab.css"]
-  landing_heading = "Natural Artificial Intelligence"
-  landing_description = "Automating the development of novel signal processing and control systems through <span style=\"white-space: nowrap;\">neuro-inspired</span> <span style=\"white-space: nowrap;\">free-energy</span> minimizing agents"
-  positions_available = true
-
-  [params.logo]
-    image = "img/tue-logo.png"
-    link = "https://tue.nl"
-
+  landing_heading = "Solve Health Problems Through Modern Data Science Techniques"
+  landing_description = "Health Data Science Center(HDSC) is a research wing of the CHIRAL Bangladesh. The wing focuses on using health data to make better healthcare decisions."
+  
   [[params.navbar_hierarchy]]
-    name = "SPS"
-    link = "https://www.tue.nl/en/research/research-groups/signal-processing-systems/"
-    position = 1
-
+  name = "CHIRAL Bangladesh"
+  link = "https://chiralbd.org/"
+  position = 1
+  #
   [[params.navbar_hierarchy]]
-    name = "BIASlab"
+    name = "HDSC"
     link = "/"
     position = 2
 
-  [[params.sponsors]]
-    name = "NWO"
-    link = "http://www.stw.nl"
-    image = "/img/sponsors/NWO.png"
-  [[params.sponsors]]
-    name = "GN Resound"
-    link = "http://www.resound.com/"
-    image = "/img/sponsors/GNResound.png"
+  # [[params.sponsors]]
+  #   name = "NWO"
+  #   link = "http://www.stw.nl"
+  #   image = "/img/sponsors/thals.png"
+  #
+  # [[params.sponsors]]
+  #   name = "GN Resound"
+  #   link = "http://www.resound.com/"
+  #   image = "/img/sponsors/GNResound.png"
+
+
 
   # Selected Publications section.
   [params.publications_selected]
-    detailed_list = true
+    detailed_list = false
     title = "Selected Publications"
     subtitle = ""
 
@@ -67,7 +65,7 @@ tag = "tags"
   [params.publications]
     count = 5
     detailed_list = false
-    title = "Publications"
+    title = "Working Papers"
     subtitle = ""
     str_all = "More Publications"
 
@@ -75,9 +73,9 @@ tag = "tags"
   # Section will only be displayed if there are posts in `content/post/`.
   [params.posts]
     count = 2
-    title = "Blog"
+    title = "News"
     subtitle = ""
-    str_all = "More Posts"
+    str_all = "More"
     str_read_more = "Read more"
 
   # Projects section.
@@ -85,7 +83,7 @@ tag = "tags"
   [params.projects]
     title = "Projects"
     subtitle = ""
-    count = 3
+    count = 5
     str_all = "More Projects"
 
   # Vacancies section
@@ -106,85 +104,65 @@ tag = "tags"
   # Navigation Links
   #   The weight parameter defines the order that the links will appear in.
 
+
   [[menu.main]]
     name = "Home"
     url = "/#home"
-    weight = 1
-
-  [[menu.main]]
-    name = "Publications"
-    url = "/#publications"
-    parent="research"
-    weight = 3
-
-  [[menu.main]]
-    name = "Starter's guide"
-    url = "/research/starter-guide"
-    parent="joinus"
-    weight = 3
-
-  [[menu.main]]
-    name = "Research"
     weight = 2
-    identifier = "research"
-
-  [[menu.main]]
+ 
+[[menu.main]]
     name = "Projects"
     url = "/#projects"
-    parent = "research"
-    weight = 2
-
-  [[menu.main]]
-    name = "Blog"
-    url = "/#posts"
-    parent = "research"
-    weight = 4
+    weight = 3
 
   [[menu.main]]
     name = "Team"
-    url = "/#members"
+    url = "/#member"
+    weight = 4
+
+
+ [[menu.main]]
+    name = "Teaching"
+    identifier = "teaching"
     weight = 5
 
   [[menu.main]]
-    name = "Software"
-    weight = 3
-    identifier = "software"
-
-  [[menu.main]]
-    name = "ForneyLab.jl"
-    url = "https://biaslab.github.io/ForneyLab.jl/stable/"
-    parent = "software"
+    name = "Ongoing: Python for Health Data Analytics(PY4HDA)"
+    url = "/teaching/py4hda"
+    parent = "teaching"
     weight = 1
-
-  [[menu.main]]
-    name = "Rocket.jl"
-    url = "https://biaslab.github.io/Rocket.jl/stable"
-    parent = "software"
+    [[menu.main]]
+    name = "All Training Modules"
+    url = "/teaching/all_courses"
+    parent = "teaching"
     weight = 2
 
-  [[menu.main]]
-    name = "ReactiveMP.jl"
-    url = "https://biaslab.github.io/ReactiveMP.jl/stable"
-    parent = "software"
-    weight = 2
-
-  [[menu.main]]
-    name = "Join us"
-    url = "#open-projects"
+ [[menu.main]]
+    name = "Join"
+    url = "/research/hdsc/"
     weight = 6
-    identifier="joinus"
-
-  [[menu.main]]
-    name = "Open projects"
-    url = "/open-projects"
-    parent = "joinus"
-
+    
   [[menu.main]]
     name = "Contact"
     url = "/#contact"
     weight = 7
 
-  [[menu.main]]
-    name = "Teaching"
-    url = "/teaching/bmlip"
-    weight = 2
+
+ 
+
+  # [[menu.main]]
+  #   name = "Software"
+  #   weight = 3
+  #   identifier = "software"
+
+  # [[menu.main]]
+  #   name = "ForneyLab.jl"
+  #   url = "https://biaslab.github.io/ForneyLab.jl/stable/"
+  #   parent = "software"
+  #   weight = 1
+
+  # [[menu.main]]
+  #   name = "Rocket.jl"
+  #   url = "https://biaslab.github.io/Rocket.jl/stable"
+  #   parent = "software"
+  #   weight = 2
