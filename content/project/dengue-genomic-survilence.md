@@ -1,11 +1,11 @@
 +++
 date = "2021-05-22T14:45:00+02:00"
 external_link = ""
-project_id = "HDSC1001"
-picture = "projects/dss/dds.png"
+project_id = "GDSC1001"
+picture = "projects/dengue-genomic-survilence/dengue.jpg"
 description = ""
 short_description = "This project aims to help doctors or medical professionals make data-driven decisions in health care, and they can easily detect patients with the disease."
-title = "Diseases Detection System(DDS)"
+title = "Bangladesh Landscape of Dengue Genomic Surveillance"
 participants_block_position = "down"
 sort_position = 1
 
@@ -23,7 +23,7 @@ sort_position = 1
 
 +++
 
-<!-- <img src="/img/projects/thalassemia/thalassemia.png" width="1200px" height="500px"> -->
+<!-- <img src="/img/projects/dengue-genomic-survilence/dengue.jpg" width="1200px" height="500px"> -->
 
 
 ## Problem Statement

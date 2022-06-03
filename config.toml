@@ -22,15 +22,15 @@ tag = "tags"
 [params]
   description = "We collaborate with a broad variety of partners, including patients, the general public, physicians, researchers, and health organizations, to assist them in conducting research into the causes, prevention, and treatment of all health problems using health data (such as heart attacks, strokes, and vascular dementia). We do this to make sure that new ways to treat and care for diseases and health problems reach patients as quickly as possible."
   author = "CHIRAL Bangladesh"
-  email = "hdsc.chiralbd@gmail.com"
+  email = "gdsc.chiralbd@gmail.com"
   #youtube = "https://www.youtube.com/channel/UCAcwD0rF2Rm-sp1c2LUWh4w"
   address = '<a>Azimpur, 7/7, Dhaka, Bangladesh</a>'
   slogan = "CHIRAL<b>BD</b>"
   slogan_icon = "icon-spsbrats_logo"
   slogan_text = "Better Insights, Better Lives"
   custom_css = ["biaslab.css"]
-  landing_heading = "Solve Health Problems Through Modern Data Science Techniques"
-  landing_description = "Health Data Science Center(HDSC) is a research wing of the CHIRAL Bangladesh. The wing focuses on using health data to make better healthcare decisions."
+  landing_heading = "Understand the Cause of Disease Through Genomic Data"
+  landing_description = "Genomic Data Science Center is a research wing of the CHIRAL Bangladesh. The wing focuses on using publicly available genomic data to understand the cause of diseases, the transmission of conditions, and the evolutionary relationship among multiple organisms."
   
   [[params.navbar_hierarchy]]
   name = "CHIRAL Bangladesh"
@@ -38,7 +38,7 @@ tag = "tags"
   position = 1
   #
   [[params.navbar_hierarchy]]
-    name = "HDSC"
+    name = "GDSC"
     link = "/"
     position = 2
 
