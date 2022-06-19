@@ -18,11 +18,6 @@ Genomic Data Science Center is a research wing of the CHIRAL Bangladesh. The win
 - To improve the healthcare system in Bangladesh through the understanding of the genome.
 - To enable data science for making data-driven conclusions and help policymakers to make decisions.
 
-## Team
-- [Shaheen Alam <br> Team Lead, Genomic Data Science Center](https://hdrobd.org/member/shaheen_alam/)
-- [Mehedi Hasan <br> Researcher, Genomic Data Science Center](https://hdrobd.org/member/mehedi_hasan/)
-- [Jubayer Hossain <br> Data Analyst, Genomic Data Science Center](https://hdrobd.org/member/jubayer_hossain/)
-
 
 ## Workflow and Tools
 

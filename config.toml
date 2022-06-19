@@ -108,17 +108,17 @@ tag = "tags"
   [[menu.main]]
     name = "Home"
     url = "/#home"
+    weight = 1
+    
+ [[menu.main]]
+    name = "People"
+    url = "/#member"
     weight = 2
- 
+
 [[menu.main]]
     name = "Projects"
     url = "/#projects"
     weight = 3
-
-  [[menu.main]]
-    name = "Team"
-    url = "/#member"
-    weight = 4
 
 
  [[menu.main]]
@@ -127,8 +127,8 @@ tag = "tags"
     weight = 5
 
   [[menu.main]]
-    name = "Ongoing: Python for Health Data Analytics(PY4HDA)"
-    url = "/teaching/py4hda"
+    name = "Ongoing: Introduction to Scientific Computing for Biologists"
+    url = "/teaching/ISCB_R"
     parent = "teaching"
     weight = 1
     [[menu.main]]
@@ -139,7 +139,7 @@ tag = "tags"
 
  [[menu.main]]
     name = "Join"
-    url = "/research/hdsc/"
+    url = "/research/gdsc/"
     weight = 6
     
   [[menu.main]]
@@ -147,8 +147,6 @@ tag = "tags"
     url = "/#contact"
     weight = 7
 
-
- 
 
   # [[menu.main]]
   #   name = "Software"
