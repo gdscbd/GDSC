@@ -15,17 +15,7 @@ type = "teaching"
     id = "jhossain"
     position = 1
 
-[[participants]]
-    name = "Shaheen Alam"
-    is_member = true
-    id = ""
-    position = 2
 
-[[participants]]
-    name = "Mehedi Hasan"
-    is_member = true
-    id = ""
-    position = 3
 
 [[participants]]
     name = "Atik Shahriar Sammo"
