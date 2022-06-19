@@ -135,6 +135,42 @@ GDSC runs different programs regarding health data analytics, bioinformatics, ge
         </tr>
  </table>
 
+## Genomic Data Sciece with Python		
+
+<table border = "1">
+        <tr>
+            <th style="text-align:center">Course Code</th>
+            <th style="text-align:center">Course Name</th>
+            <th style="text-align:center">Level</th>
+            <th style="text-align:center">Course Website</th>
+        </tr>
+        <tr>
+           <td>GDSPY101</td>
+           <td>Introduction to Python for Bioinformatics </td>
+           <td>Basic</td>
+           <td> <a href="#">Find out more</a></td>
+        </tr>
+         <tr>
+           <td>GDSPY102</td>
+           <td>Genomic Data Management with Python</td>
+           <td>Basic</td>
+           <td> <a href="#">Find out more</a></td>
+        </tr>
+        <tr>
+           <td>GDSPY103</td>
+           <td>Genomic Data Visualization with Python</td>
+           <td>Basic</td>
+           <td> <a href="#">Find out more</a></td>
+        </tr>
+        <tr>
+           <td>GDSPY104</td>
+           <td>Statistics for Genomic Data Science with Python</td>
+            <td>Intermediate</td>
+           <td> <a href="#">Find out more</a></td>
+        </tr>
+ </table>
+
+
 
 ## Courses on Scientific Computing for Biologists 
 Scientific computing is the collection of tools, techniques, and theories required to solve the mathematical models of problems in science and engineering on a computer. However, now scientific computing plays a vital role in health sciences; we enable scientific computing to solve genomic problems and improve public health. We have several courses on scientific computing, including Introduction to Scientific Computing with Python, Introduction to Scientific Computing with R, and Introduction to Scientific Computing with Julia. 
